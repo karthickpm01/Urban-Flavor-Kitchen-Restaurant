@@ -1,0 +1,452 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(78, 75, 75);
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    position: sticky;
+    top: 0%;
+    background-color: black;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+}
+nav ul li a:hover
+{
+    color: rgb(244, 70, 7);
+}
+.logo h1{
+    color: rgb(244, 70, 7);
+    font-size: 35px;
+    background-color: black;
+}
+.menu-bar
+{
+    font-size: 25px;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+.home
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px;
+}
+.home-info {
+    padding: 80px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.home-info h1{
+    color: rgb(244, 70, 7);
+    font-size: 50px;
+}
+.home-info p{
+    font-size: 30px;
+    color: white;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+.home-info a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(244, 70, 7);
+    border-radius: 25px;
+    transition: all 0.5s ease;
+}
+.home-info a:hover
+{
+    transform: scale(1.1);
+    background-color: black;
+}
+.home-img img{
+    /* padding: 10px; */
+    margin-left: 30px;
+    transition: all 0.5s ease-in-out;
+}
+.home-img img:hover{
+    transform: scale(1.1);
+}
+.about-details
+{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 50px; */
+    margin-bottom: 30px;
+}
+.about-img img{
+    margin-left: 120px;
+    transition: all 0.5s ease-in-out;
+    margin-top: 80px;
+}
+.about-img img:hover{
+    transform: scale(1.1);
+}
+.about-info
+{
+    margin-left: 30px;
+}
+.about-info h4{
+    color:rgb(244, 70, 7) ;
+    font-size: 29px;
+}
+.about-info p{
+    margin-top: 20px;
+    color: rgb(206, 200, 200);
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.about-info h1{
+    color: white;
+    font-size: 32px;
+    margin-top: 20px;
+    line-height: 35px;
+}
+.about-info a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(244, 70, 7);
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    padding: 20px;
+}
+.about-info a:hover
+{
+    transform: scale(1.1);
+    background-color: black;
+}
+#cart{
+    margin-left: 220px;
+    background-color: inherit;
+    padding: 9px;
+    background-color: rgb(244, 70, 7);
+    border-bottom-left-radius: 10px;
+    color: white;
+}
+#cart:hover{
+    color: black;
+}
+.menu-info ,.card h1,.card h5,.card p ,.ser-card h5, .ser-card p,.service-info h1,.service-info p
+{
+    align-items: center;
+    text-align: center;
+}
+.menu-info p,.service-info p{
+    color:rgb(244, 70, 7) ;
+    font-size: 20px;
+}
+.menu-info h1 ,.service-info h1{                
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+}
+.menu-cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin-left: 150px;
+}
+.menu-cards .card{
+    background-color: palegoldenrod;
+    /* padding: 30px; */
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+.card img , h1,h5,.card p{
+    background-color: inherit;
+}
+#dollar
+{
+    margin-left: 100px;
+}
+.card h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.card h5{
+    font-size: 20px;
+    color: rgb(50, 50, 50);
+}
+.card p{
+    color: rgb(244, 70, 7);
+    margin-top: 10px;
+}
+.card img{
+    transition: all 0.5s ease-in-out
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+.service-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ser-card
+{
+    margin: 20px;
+}
+ h5{
+    color: rgb(244, 70, 7);
+    margin-bottom: 10px;
+}
+.ser-card p{
+    color: white;
+    line-height: 30px;
+}
+.ser-card img{
+    margin-left: 90px;
+}
+.service-cards 
+{
+    padding: 50px;
+    margin-left: 180px; 
+}
+.contact
+{
+    padding: 50px;
+    /* background-color: palegoldenrod ; */
+    margin-left: 250px;
+    background-color: palegoldenrod;
+    width: 750px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact h1
+{
+    margin-bottom: 30px;
+    font-size: 25px;
+    line-height: 30px;
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(244, 70, 7);
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.contact
+{
+    margin-bottom: 40px;
+}
+.contact a:hover{
+    background-color: black;
+    transform: scale(1.1)
+}
+.footer-card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+}
+.cards
+{
+    margin: 30px;
+}
+.cards h4{
+    font-size: 20px;
+    color: white;
+}
+.cards ul li{
+   
+    list-style-type: none;
+}
+.cards ul li a{
+    color: rgb(181, 178, 178);
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 20px
+}
+.cards ul li a:hover{
+    color: rgb(244, 70, 7);
+}
+.contact-icons1 i
+{
+    color: white;
+    background-color: rgb(244, 70, 7);
+    padding: 9px;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.contact-icons1 i:hover{
+    background-color: black;
+}
+.footer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+.footer p{
+    background-color: inherit;
+}
+@media (max-width:600px) {
+    nav ul
+    {
+        position: absolute;
+        left: 230px;
+        top: 110px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(78, 75, 75);
+        /* align-items: center; */
+        overflow: hidden;
+        transition: all 0.6s ease-in-out;
+        background-color: none;
+    }
+    nav ul li
+    {
+        background-color: none;
+    }
+    nav ul li a{
+        background-color: inherit;
+    }
+    .menu-bar
+    {
+        display: block;
+        background-color: inherit;
+    }
+    .header
+    {
+        background-color: black;
+    }
+    .home
+    {
+        padding: 0%;
+        margin: 0%;
+    }
+    .home-info 
+    {
+        padding: 0%;
+        margin-bottom: 30px;
+    }
+    .logo h1{
+        /* font-size: 20px; */
+        font-size: 22px;
+        background-color: black;
+    }
+    .home-info h1
+    {
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    .home-img img
+    {
+        width: 200px;
+        height: 250px;
+        margin-top: 100px;
+        margin-left: 70px;
+    }
+    .about-details
+    {
+        padding: 0%;
+        margin: 0%;
+        margin-top: 90px;
+    }
+    .about-img img
+{
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0%;
+    margin-left: 60px;
+}
+.about
+{
+    padding: 0%;
+    margin: 0%;
+}
+.about-info
+{
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding: 20px;
+}
+    .menu-cards
+    {
+        margin: 0%;
+        padding: 0%;
+    }
+    .card
+    {
+        margin-left: 20px;
+    }
+    .menu-info 
+    {
+        align-items: center;
+        text-align: center;
+    }
+    .menu-info p
+    {
+        font-size: 20px;
+    }
+    .menu-info h1
+    {
+        font-size: 25px;
+    }
+    .service-cards
+    {
+        padding: 0%;
+        margin: 0%;
+    }
+    .contact
+    {
+        margin: 0%;
+        padding: 0%;
+        width: 300px;
+        margin-left: 25px;
+    }
+    .footer-card
+    {
+        padding: 0%;
+        margin: 0%;
+        margin-top: 30px;
+    }
+    .contact-icons1 i
+    {
+        font-size: 18px;
+    }
+    .footer
+             {
+                margin-top: 20px;
+             }
+             .footer p{
+                font-size: 18px;
+                padding: 10px;
+             }
+}

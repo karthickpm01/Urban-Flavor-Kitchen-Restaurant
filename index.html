@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food and Restaurant Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="home">
+        <div class="header">
+            <nav>
+                <div class="logo">
+                    <h1>Urban Flavor Kitchen</h1>
+                </div>
+                <ul id="menulist">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-bar">
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </div>
+            </nav>
+        </div>
+        <div class="home">
+            <div class="home-info">
+                <h1>FULL Website</h1><br>
+                <p>Food is the <br>Most precious things</p>
+                <a href="#menu">Today Menu</a>
+            </div>
+            <div class="home-img">
+                <img src="images/home.png" height="350px" width="350px">
+            </div>
+        </div>
+        <section>
+            <div class="about" id="about">
+                <div class="about-details">
+                    <div class="about-img">
+                        <img src="images/about.png" width="350px" height="350px">
+                    </div>
+                    <div class="about-info">
+                        <h4>About Us</h4>
+                        <h1>We speak the good<br>Food language</h1>
+                        <p>Welcome to Urban Flavor Kitchen, where culinary excellence meets cozy ambiance.Nestled in
+                            the heart of K R Puram,<br>  our restaurant is a haven for food lovers seeking
+                            unforgettable dining experiences. With a menu curated to tantalize<br> every palate, our
+                            chefs blend local flavors with global influences, presenting dishes that are both
+                            innovative and comforting. <br> Whether you're craving a hearty steak grilled to perfection,
+                            artisanal pizzas straight from our wood-fired oven, or delicate<br> desserts  are a
+                            feast for the eyes and taste buds, Urban Flavor Kitchen promises a gastronomic journey<br> that
+                            delights all senses. Our warm hospitality and stylish decor provide the perfect backdrop for
+                            intimate dinners, <br>family gatherings, or casual lunches with friends. Come savor the
+                            flavors, unwind with<br> our handcrafted cocktails, and indulge in moments of culinary bliss
+                            at Urban Flavor Kitchen.
+                        <p></p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="menu" id="menu">
+                <div class="menu-info">
+                    <p>Food Menu</p>
+                    <h1>Fresh taste and great price</h1>
+                </div>
+                <div class="menu-cards">
+                    <div class="card">
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i><br>
+                        <img src="images/food1.png" width="200px" height="200px">
+                        <h1>Chicken Burger</h1>
+                        <h5>Tasty Food</h5>
+                        <p id="cost">$20</p>
+                        <!-- <i class="fa-solid fa-dollar-sign">20</i> -->
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i><br>
+                        <img src="images/food2.png" width="200px" height="200px">
+                        <h1>Chicken Burger</h1>
+                        <h5>Tasty Food</h5>
+                        <p id="cost">$24</p>
+                        <!-- <i class="fa-solid fa-dollar-sign">20</i>  -->
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i><br>
+                        <img src="images/food3.png" width="200px" height="200px">
+                        <h1>Chicken fry pack</h1>
+                        <h5>Tasty Food</h5>
+                        <!-- <i class="fa-solid fa-dollar-sign" id="dollar">20</i> -->
+                        <p id="cost">$30</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i><br>
+                        <img src="images/food4.png" width="200px" height="200px">
+                        <h1>Veg Burger</h1>
+                        <h5>Tasty Food</h5>
+                        <!-- <i class="fa-solid fa-dollar-sign" id="dollar">20</i> -->
+                        <p id="cost">$18</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i><br>
+                        <img src="images/food5.png" width="200px" height="200px">
+                        <h1>Chicken </h1>
+                        <h5>Tasty Food</h5>
+                        <!-- <i class="fa-solid fa-dollar-sign" id="dollar">20</i> -->
+                        <p id="cost">$29</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa-solid fa-cart-shopping" id="cart"></i><br>
+                        <img src="images/food6.png" width="200px" height="200px">
+                        <h1>Chicken fry </h1>
+                        <h5>Tasty Food</h5>
+                        <!-- <i class="fa-solid fa-dollar-sign" id="dollar">20</i> -->
+                        <p id="cost">$22</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="service" id="service">
+                <div class="service-info">
+                    <p>services</p>
+                    <h1>We provide best quality food</h1>
+                </div>
+                <div class="service-cards">
+                    <div class="ser-card">
+                        <img src="images/s1.png" width="100px" height="100px">
+                        <h5>Order</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit.Maiores, voluptate!</p>
+                    </div>
+
+                    <div class="ser-card">
+                        <img src="images/s2.png" width="100px" height="100px">
+                        <h5>Shipping</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Maiores, voluptate!</p>
+                    </div>
+
+                    <div class="ser-card">
+                        <img src="images/s3.png" width="100px" height="100px">
+                        <h5>Delivered</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Maiores, voluptate!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="contact" id="contact">
+                <h1>we make quality food <br>Everyday</h1>
+                <a href="#">Let's Talk</a>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-info">
+                <div class="footer-card">
+                    <div class="cards">
+                        <h4>Menu-clicks</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#menu">Menu</a></li>
+                            <li><a href="#service">Service</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="cards">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><a href="#home">Web Design</a></li>
+                            <li><a href="#about">Web Development</a></li>
+                            <li><a href="#menu">Graphic Design</a></li>
+                            <li><a href="#service">Product Design</a></li>
+                            <li><a href="#contact">Video Editing</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cards">
+                        <h4>Information</h4>
+                        <ul>
+                            <li><a href="#home">About Us</a></li>
+                            <li><a href="#about">Delivery Information</a></li>
+                            <li><a href="#menu">Privacy Policy</a></li>
+                            <li><a href="#service">Product Design</a></li>
+                            <li><a href="#contact">Terms & Condition</a></li>
+                        </ul>
+                    </div>
+                    <div class="cards">
+                        <h4>Contact Us</h4>
+                        <div class="contact-icons1">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="footer">
+            <p>Copyright@Karthick P M</p>
+        </div>
+    </div>
+
+
+    <script>
+        let menulist = document.getElementById("menulist");
+
+        menulist.style.maxHeight = "0px";
+
+        function openmenu() {
+            if (menulist.style.maxHeight == "0px") {
+                menulist.style.maxHeight = "300px";
+            }
+            else {
+                menulist.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
